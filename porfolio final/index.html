@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sadriddinov Shoxrux — Web Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Onest:wght@400;600&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add("js");try{if(!matchMedia("(prefers-reduced-motion: reduce)").matches)document.documentElement.classList.add("intro-on")}catch(e){}</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress" aria-hidden="true"></div>
+<div class="intro" aria-hidden="true"><span class="orb o1"></span><span class="orb o2"></span><div class="water"></div><div class="intro-main"><div class="intro-name"><span class="ln"><i style="--i:0">S</i><i style="--i:1">A</i><i style="--i:2">D</i><i style="--i:3">R</i><i style="--i:4">I</i><i style="--i:5">D</i><i style="--i:6">D</i><i style="--i:7">I</i><i style="--i:8">N</i><i style="--i:9">O</i><i style="--i:10">V</i></span><span class="ln"><i style="--i:11">S</i><i style="--i:12">H</i><i style="--i:13">O</i><i style="--i:14">X</i><i style="--i:15">R</i><i style="--i:16">U</i><i style="--i:17">X</i></span></div><div class="intro-role"><span class="role-txt"></span><span class="caret"></span></div></div><div class="intro-foot"><div class="intro-bar"><b></b></div><div class="wbar"><div class="px">0%</div><div class="wv"><div class="wbody"><div class="px2">0%</div></div></div></div></div></div>
+<div class="wrap">
+  <header class="top">
+    <strong style="font-family:Unbounded,sans-serif">S.Sh.</strong>
+    <nav id="nav">
+      <a href="#projects">Projects</a>
+      <a href="#services">Services</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="langs" role="group" aria-label="Language"><button class="theme" type="button" data-l="en" aria-pressed="true">EN</button><button class="theme" type="button" data-l="ru" aria-pressed="false">RU</button><button class="theme" type="button" data-l="uz" aria-pressed="false">UZ</button><button class="theme" id="theme" type="button" aria-label="Switch theme">Theme</button></div>
+    <button class="burger" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="blob" aria-hidden="true"></div>
+      <h1><span>Sadriddinov</span><span class="last">Shoxrux</span></h1>
+      <p class="lead">I build websites and online stores with HTML, CSS and JavaScript. I like pages that don’t look like a template and load fast.</p>
+      <span class="age">17 years old · 3 years of experience</span>
+      <span class="avail"><i></i>Available for freelance projects</span>
+
+      <div class="play" aria-label="Site settings">
+        <div>
+          <h2>Make this site your own</h2>
+          <p>Move the sliders: color, corner radius and heading weight change instantly. It all runs on CSS variables and a few lines of JavaScript.</p>
+        </div>
+        <div class="ctl">
+          <label>Color <input id="hue" type="range" min="0" max="360" value="255" aria-label="Color"></label>
+          <label>Roundness <input id="rad" type="range" min="0" max="36" value="18" aria-label="Roundness"></label>
+          <div class="seg" role="group" aria-label="Heading weight">
+            <button type="button" data-w="400" aria-pressed="false">Light</button>
+            <button type="button" data-w="700" aria-pressed="false">Medium</button>
+            <button type="button" data-w="900" aria-pressed="true">Bold</button>
+          </div>
+        </div>
+        <pre class="code" id="code" aria-live="off"></pre>
+      </div>
+    </div>
+
+    <section id="projects">
+      <h2 class="t">Projects</h2>
+      <div class="projects">
+        <a class="proj" href="#loom" data-p="loom">
+          <div class="shot s1" aria-hidden="true"><span class="bar"><i></i><i></i><i></i></span><em class="m1"></em><em class="m2"></em><em class="m3"></em></div>
+          <h3>Loom: Clothing Store</h3>
+          <p>A fashion store with color and size pickers, wishlist, filters and a slide-out cart.</p>
+          <div class="tags"><i>HTML</i><i>CSS</i><i>JavaScript</i></div>
+        </a>
+        <a class="proj" href="#loom" data-p="loom" data-o="cart">
+          <div class="shot s2" aria-hidden="true"><span class="bar"><i></i><i></i><i></i></span><em class="m1"></em><em class="m2"></em><em class="m3"></em></div>
+          <h3>Loom Cart &amp; Checkout</h3>
+          <p>A cart with free-shipping progress, promo code and a checkout with form validation.</p>
+          <div class="tags"><i>JavaScript</i><i>localStorage</i></div>
+        </a>
+        <a class="proj" href="#ember" data-p="ember">
+          <div class="shot s3" aria-hidden="true"><span class="bar"><i></i><i></i><i></i></span><em class="m1"></em><em class="m2"></em><em class="m3"></em></div>
+          <h3>Ember Roasters: Coffee Beans</h3>
+          <p>A coffee shop with roast levels, grind and weight options and a live cart.</p>
+          <div class="tags"><i>HTML</i><i>CSS</i><i>JavaScript</i></div>
+        </a>
+      </div>
+    </section>
+
+    <section id="services">
+      <h2 class="t">How I can help your business</h2>
+      <div class="svc">
+        <div><h3>Online stores</h3><p>Product catalog, search and filters, shopping cart and an easy checkout that works on phones.</p></div>
+        <div><h3>Business websites</h3><p>Fast, clear sites for cafés, shops and local services, so customers find you and contact you.</p></div>
+        <div><h3>Landing pages</h3><p>One focused page that explains your offer and gets visitors to call, order or write.</p></div>
+      </div>
+      <h3 class="sub">Why work with me</h3>
+      <div class="why">
+        <div><h3>Mobile first</h3><p>Most customers browse on their phone, so every site is built for small screens first.</p></div>
+        <div><h3>Fast to load</h3><p>Lightweight code with no heavy templates, so pages open quickly.</p></div>
+        <div><h3>Clear communication</h3><p>You always know what is done and what comes next. Write to me and I reply.</p></div>
+      </div>
+      <h3 class="sub">How we work</h3>
+      <div class="steps">
+        <div><h3>Brief</h3><p>You tell me about your business and goals.</p></div>
+        <div><h3>Design</h3><p>I show you the look of the site before building.</p></div>
+        <div><h3>Build</h3><p>I code the site and you review it.</p></div>
+        <div><h3>Launch</h3><p>The site goes live and I fix anything that needs it.</p></div>
+      </div>
+    </section>
+
+    <section id="pricing">
+      <h2 class="t">Pricing</h2>
+      <div class="plans">
+        <div class="plan main">
+          <h3>Website</h3>
+          <div class="amt">$80</div>
+          <ul><li>Custom design, no templates</li><li>Works on phones and computers</li><li>HTML, CSS and JavaScript</li></ul>
+          <a href="#contact">Order a website</a>
+        </div>
+        <div class="plan">
+          <h3>Fixes and edits</h3>
+          <div class="amt">$10</div>
+          <ul><li>Fix bugs on your existing site</li><li>Change text, colors or layout</li><li>Per fix</li></ul>
+          <a href="#contact">Request a fix</a>
+        </div>
+        <div class="plan">
+          <h3>Large projects</h3>
+          <div class="amt">$100+</div>
+          <ul><li>Online stores with a cart</li><li>Multi-page business sites</li><li>Custom features</li></ul>
+          <a href="#contact">Get a quote</a>
+        </div>
+      </div>
+      <p class="note">The final price of a large project depends on its size. Message me for an exact quote.</p>
+    </section>
+
+    <section id="skills">
+      <h2 class="t">What I do</h2>
+      <div class="skills">
+        <div><h3>HTML</h3><p>Clean, semantic page structure.</p></div>
+        <div><h3>CSS</h3><p>Responsive layouts, flexbox, grid and animations.</p></div>
+        <div><h3>JavaScript</h3><p>Interactive features: carts, filters, forms and DOM work.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2 class="t">Have a project? Let’s talk</h2>
+      <a class="big" href="mailto:ssadriddinov98@gmail.com">ssadriddinov98@gmail.com</a>
+      <div class="links">
+        <a href="https://t.me/khazardywe">Telegram</a>
+        <a href="https://instagram.com/khazardy.1">Instagram</a>
+      </div>
+      <form class="form" id="form">
+        <label>Your name <input id="fn" required autocomplete="name"></label>
+        <label>Your email <input id="fe" type="email" required autocomplete="email"></label>
+        <label>Tell me about your project <textarea id="fm" rows="4" required></textarea></label>
+        <button type="submit">Send message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>© 2026 Sadriddinov Shoxrux</footer>
+  <a class="hire" href="#contact">Hire me</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
